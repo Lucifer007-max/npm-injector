@@ -110,5 +110,3 @@ export default App;
 * Works best in modern browsers with `import()`
 * Some server-side (SSR) use cases may require conditionals
 * CDN fallback order is: `esm.sh → skypack.dev → jsdelivr → unpkg`
-
----
