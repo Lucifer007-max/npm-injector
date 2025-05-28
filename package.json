@@ -1,0 +1,31 @@
+{
+  "name": "npm-injector",
+  "version": "1.0.6",
+  "description": "Dynamically import npm packages from CDN like esm.sh, skypack, unpkg",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/example.js"
+  },
+  "author": "Ajay Sharma",
+  "license": "MIT",
+  "keywords": [
+    "dynamic-import",
+    "cdn",
+    "esm",
+    "vite",
+    "npm",
+    "injector"
+  ],
+  "files": [
+    "dist"
+  ]
+}
